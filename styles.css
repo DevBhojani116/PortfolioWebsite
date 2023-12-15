@@ -1,0 +1,140 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-color: #1d1d1d;
+}
+
+#everything
+{
+    /* background-color: #1d1d1d; */
+}
+
+.heading
+{
+    text-align: center;
+}
+
+#Education h1
+{
+    color: #8b8b8b;
+    font-size: 75px;
+    text-shadow: 2px 2px black;
+    /* background-color: gray; */
+}
+
+/* #qacsLogo
+{
+    padding: 40px;
+    transition: .5s ease;
+    border: solid;
+    border-color: #fc1056;
+    border-radius: 50%; 
+} */
+
+#collegeName, #schoolName
+{
+    border: solid;
+    border-color: #8b8b8b;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#projectsContent
+{
+
+}
+
+.andar
+{
+    background: #8b8b8b;
+}
+.projectsBox
+{
+    flex: 1 1 30rem;
+    background: #8b8b8b;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #fc1056;
+    box-shadow: 0 0 1rem #8b8b8b;
+}
+
+.projectsBox i
+{
+    font-size: 2rem;
+    background-color: #8b8b8b;
+}
+
+.projectsBox a
+{
+    background: transparent;
+}
+
+#Projects h1
+{
+    color: #8b8b8b;
+    font-size: 75px;
+    text-shadow: 2px 2px black;
+    margin-bottom: 20px;
+    /* background-color: gray; */
+}
+
+#sidebar
+{
+    justify-content: space-around;
+    color: white;
+    /* background-color: #8b8b8b; */
+}
+
+
+#list li:hover
+{
+    color: #8b8b8b;
+    text-decoration: underline;
+    text-decoration-color: #fc1056;
+    text-underline-offset: 5px;
+
+    /* border: solid; */
+    /* border-radius: 30%; */
+    /* border-color: #fc1056; */
+}
+
+#navbar
+{
+
+}
+
+#navbar ul li
+{
+    font-size: 20px;
+}
+
+#info
+{
+    justify-content: space-around;
+}
+
+#myInfo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #8b8b8b;
+}
+
+#icons a 
+{
+    font-size: 30px;
+    background: transparent;
+    transition: .5s ease;
+    border-color: #8b8b8b;
+    border-radius: 50%; 
+}
+
+#icons a:hover
+{
+    color: white;
+    box-shadow: 0 0 1rem #8b8b8b;
+}
