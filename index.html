@@ -10,10 +10,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class = "flex-col" id = "everything">
-        <div class = "flex" id = "sidebar">
+    <div class = "flex-col flex-wrap" id = "everything">
+        <div class = "flex flex-wrap" id = "sidebar">
             <nav class = "p-5" id = "navbar">
-                <ul class = "flex" id = "list">
+                <ul class = "flex flex-wrap" id = "list">
                     <li class = "cursor-pointer mx-10 p-5 font-medium"><a href = "#Home">Home</a></li>
                     <li class = "cursor-pointer mx-10 p-5 font-medium"><a href = "#Education">Education</a></li>
                     <li class = "cursor-pointer mx-10 p-5 font-medium"><a href = "#Projects">Projects</a></li>
@@ -23,7 +23,7 @@
         </div>
 
         <div id = "content">
-            <div id = "Home" class = "h-[58vh] w-[80vw] my-10 mx-auto flex">
+            <div id = "Home" class = "h-[58vh] w-[80vw] my-10 mx-auto flex flex-wrap">
                 <div class = "mx-5" id = "myInfo">
                     <div class = "text-6xl">Hi! I am</div>
                     <div class = "text-5xl text-[#fc1056] font-bold">Dev Bhojani</div>
@@ -45,12 +45,12 @@
                 </div>
             </div>
 
-            <div id = "Education" class = "my-36 mx-auto">
+            <!-- <div id = "Education" class = "mx-auto my-10">
                 <div class = "heading">
                     <h1><strong>Education</strong></h1>
                 </div>
                 <div>
-                    <div id = "qacs" class = "mx-52 my-8 flex justify-around">
+                    <div id = "qacs" class = "mx-52 my-8 flex flex-wrap justify-around">
                         <div id = "qacsLogo">
                             <img src = "images/qacs201703152042579554910.png" class = "h-[20vh]" alt = "My Profile Photo">
                         </div>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
 
-                    <div id = "nitk" class = "mx-52 my-8 flex justify-around">
+                    <div id = "nitk" class = "mx-52 my-8 flex flex-wrap justify-around">
                         <div id = "nitkLogo">
                             <img src = "images/NITK_Emblem.png" class = "h-[20vh]" alt = "My Profile Photo">
                         </div>
@@ -72,9 +72,57 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+
+            <div id = "Education" class = "my-10 mx-auto">
+                <div class = "heading">
+                    <h1><strong>Education</strong></h1>
+                </div>
+
+                <div id = "projectsContent" class = "flex mx-16 align-middle justify-center flex-wrap gap-8">
+                    <div class = "projectsBox">
+                        <i class = "bx bx-code-alt"></i>
+                        <div class = "andar text-[#fc1056] font-bold text-4xl">Crowdfunding Platform</div>
+                        <p class = "andar text-2xl my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quam tempore 
+                            dolorum reiciendis. Voluptatum, tenetur nobis?
+                        </p>
+                        <a href = "https://github.com/DevBhojani116/Crowdfunding" class = "g-transparent hover:bg-[#fc1056] text-[#fc1056] font-semibold hover:text-white py-2 px-4 border border-[#fc1056] hover:border-transparent rounded my-[4px]">Go to GitHub</a>
+                    </div>
+
+                    <div class = "projectsBox">
+                        <i class = "bx bx-code-alt"></i>
+                        <div class = "andar text-[#fc1056] font-bold text-4xl">NFT Minter</div>
+                        <p class = "andar text-2xl my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quam tempore 
+                            dolorum reiciendis. Voluptatum, tenetur nobis?
+                        </p>
+                        <a href = "https://github.com/DevBhojani116/NFT_Minter" class = "g-transparent hover:bg-[#fc1056] text-[#fc1056] font-semibold hover:text-white py-2 px-4 border border-[#fc1056] hover:border-transparent rounded my-[4px]">Go to GitHub</a>
+                    </div>
+
+                    <div class = "projectsBox">
+                        <i class = "bx bx-code-alt"></i>
+                        <div class = "andar text-[#fc1056] font-bold text-4xl">File Organiser</div>
+                        <p class = "andar text-2xl my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quam tempore 
+                            dolorum reiciendis. Voluptatum, tenetur nobis?
+                        </p>
+                        <a href = "https://github.com/DevBhojani116/File-Organiser-Project" class = "g-transparent hover:bg-[#fc1056] text-[#fc1056] font-semibold hover:text-white py-2 px-4 border border-[#fc1056] hover:border-transparent rounded my-[4px]">Go to GitHub</a>
+                    </div>
+
+                    <div class = "projectsBox">
+                        <i class = "bx bx-code-alt"></i>
+                        <div class = "andar text-[#fc1056] font-bold text-4xl">WiFi controlled vehicle</div>
+                        <p class = "andar text-2xl my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quam tempore 
+                            dolorum reiciendis. Voluptatum, tenetur nobis?
+                        </p>
+                        <a href = "https://github.com/DevBhojani116/Mini_Vehicle" class = "g-transparent hover:bg-[#fc1056] text-[#fc1056] font-semibold hover:text-white py-2 px-4 border border-[#fc1056] hover:border-transparent rounded my-[4px]">Go to GitHub</a>
+                    </div>
+                </div>
             </div>
 
-            <div id = "Projects" class = "my-36 mx-auto">
+            <div id = "Projects" class = "my-10 mx-auto">
                 <div class = "heading">
                     <h1><strong>Projects</strong></h1>
                 </div>
@@ -127,5 +175,5 @@
 </html>
 
 <script>
-    alert("I am yet to add animations and revamp the education portion")
+    // alert("I am yet to add animations and revamp the education portion");
 </script>
